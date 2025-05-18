@@ -1,0 +1,17 @@
+{
+  "name": "0x02-tailwind-css",
+  "version": "1.0.0",
+  "description": "This project offers a hands-on exploration of Tailwind CSS, focusing on building responsive and visually appealing web layouts. Tasks progress from basic CSS grids and flexbox navigation bars to complex multi-section layouts combining CSS Grid and Flexbox. The project aims to deepen your understanding of responsive design principles while mastering Tailwind’s utility-first approach.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^4.1.7"
+  }
+}
